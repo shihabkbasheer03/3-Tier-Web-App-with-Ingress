@@ -1,0 +1,8 @@
+# configmap.yaml
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: demo-config
+data:
+  APP_ENV: "prod"
+  API_MESSAGE: "Hello from Kubernetes!"
