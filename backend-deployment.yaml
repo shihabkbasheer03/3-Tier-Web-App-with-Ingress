@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: ghcr.io/ak120/echo-server:latest  # or your own API image
+          image: ealen/echo-server:latest  # or your own API image
           envFrom:
             - configMapRef:
                 name: demo-config
