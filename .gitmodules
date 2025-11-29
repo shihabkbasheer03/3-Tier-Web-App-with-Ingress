@@ -1,0 +1,3 @@
+[submodule "gluster-csi-driver"]
+	path = gluster-csi-driver
+	url = https://github.com/gluster/gluster-csi-driver.git
